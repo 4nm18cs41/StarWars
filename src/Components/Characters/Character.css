@@ -1,0 +1,10 @@
+.highlight{
+  background-image: url("../Assests/background.png");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-Size: cover;
+  background-Repeat: no-repeat;
+  top:0px;
+  left:0px;
+}
