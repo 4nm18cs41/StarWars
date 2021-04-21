@@ -1,0 +1,22 @@
+
+.NavLogo{
+    width:150px;
+    top:150px;
+    position:relative;
+    top:20px;
+    left:580px;
+}
+.topLine{
+    position: relative;
+    top:30px;
+    width:60%;
+    border-color: rgb(100, 167, 235);
+    opacity: 0.40;
+}
+.bottomLine{
+    position: relative;
+    top:70px;
+    width:60%;
+    border-color: rgb(100, 167, 235);
+    opacity: 0.40;
+}

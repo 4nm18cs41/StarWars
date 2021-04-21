@@ -1,23 +1,19 @@
-import {React,useEffect,useState} from "react"
-import Options from "./Options"
+import {React} from "react"
 
-
+import NavLink from "./NavLinks/NavLink"
+import CharacterNavBar from "./CharacterNavBar/CharacternavBar"
 function Characters() {
-  const [pagechange,setpageChange]=useState(false)
 
-  const setState = ()=>
-  {
-    if(pagechange===false)
-      setpageChange(true);
-
-  }
-  useEffect(()=>{
-      setState()
-  })
       return (
-        <div className='highlight'>
-          <Options/>
-        </div>
-      );
+        <>
+        <header className="head">
+          <CharacterNavBar/>
+        </header>
+          <div className='highlight'>
+            <NavLink/>
+            
+          </div>
+        </>
+      )
     }
 export default Characters

@@ -1,9 +1,9 @@
 
-import filmImage from './Assests/Topics/Image1.png'
-import speciesImage from './Assests/Topics/Image2.png'
-import planetsImage from './Assests/Topics/Image3.png'
-import peopleImage from './Assests/Topics/Image4.png'
-import starshipImage from './Assests/Topics/Image5.png'
+import filmImage from '../../Components/Assests/Topics/Image1.png'
+import speciesImage from '../../Components/Assests/Topics/Image2.png'
+import planetsImage from '../../Components/Assests/Topics/Image3.png'
+import peopleImage from '../../Components/Assests/Topics/Image4.png'
+import starshipImage from '../../Components/Assests/Topics/Image5.png'
 const data = [
     {
         Name:"FILMS",
