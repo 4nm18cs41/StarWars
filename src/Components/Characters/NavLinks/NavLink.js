@@ -2,7 +2,7 @@ import React,{ useState} from 'react';
 import {Link,useParams} from "react-router-dom";
 import "./NavLink.css"
 
-const NavOptions = ['films','species','planets','characters','starships','vehicles']
+const NavOptions = ['films','species','planets','starships','vehicles']
 const Options = ()=>
 {
     const {id}=useParams()

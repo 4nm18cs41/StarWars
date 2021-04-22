@@ -6,29 +6,29 @@ import peopleImage from '../../Components/Assests/Topics/Image4.png'
 import starshipImage from '../../Components/Assests/Topics/Image5.png'
 const data = [
     {
-        Name:"FILMS",
+        Name:"films",
         Src:filmImage,
-        Path:"/Films"
+        Path:"/films"
     },
     {
-        Name:"SPECIES",
+        Name:"species",
         Src:speciesImage,
         Path:"/species"
     },
     {
-        Name:"PLANET",
+        Name:"planet",
         Src:planetsImage,
-        Path:"/Planets"
+        Path:"/planets"
     },
     {
-        Name:"PEOPLE",
+        Name:"people",
         Src:peopleImage,
-        Path:"/People"
+        Path:"/people"
     },
     {
-        Name:"STARSHIP",
+        Name:"starship",
         Src:starshipImage,
-        Path:"/Starship"
+        Path:"/starship"
     }
 ]
 export default data;

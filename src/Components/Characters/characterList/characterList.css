@@ -1,0 +1,32 @@
+.list-li {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 600;
+    list-style-type: none;
+    font-size: 22px;
+    justify-content: space-around;
+    padding: 9px;
+  }
+  .list-nav {
+    width: 30%;
+    height: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .list-li:hover {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 600;
+    list-style-type: none;
+    font-size: 22px;
+    justify-content: space-around;
+    padding: 9px;
+    background-color: #00a8ff;
+    opacity: 70%;
+  }
